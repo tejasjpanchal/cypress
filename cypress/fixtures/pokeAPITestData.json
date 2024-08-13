@@ -1,0 +1,12 @@
+{
+    "apiUrl"                : "https://pokeapi.co/api/v2/",
+    "validBerryId"          : [ 1, 2, 3, 4, 5 ],
+    "invalidBerryId"        : 9999,
+    "validBerryName"        : [ "cheri", "chesto", "pecha", "rawst", "enigma" ],
+    "invalidBerryName"      : "apple",
+    "validBerryFlavor"      : [ "spicy", "dry", "sweet", "bitter", "sour" ],
+    "invalidBerryFlavor"    : "tangy",
+    "flavorNameForPotency"  : "spicy"
+
+}
+  
