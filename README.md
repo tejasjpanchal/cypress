@@ -86,6 +86,6 @@ Cypress/
 
 -  Scenario 01 : Till the time this test is created, there is no movie with tag "Completed" hence no movie will be selected but test will PASS. Once there is a movie with tag "Completed" is available then that movie will be selected.
 -  Scenario 05 : Datepicker is not directly accesible due to nature of elements or implementation of datepicker hence the date is enetred using cypress type command in test script to complete the scenario.
--  Current version of UI Test spec files except "Nicolas_Cage.cy.js" under this project will not run on Firefox browser as the IMDb.com behaves inconsistantly on Firefox with Cypress.
+-  Current version of UI Test spec files except "Nicolas_Cage.cy.js" under this project may not run on Firefox browser as the IMDb.com behaves inconsistantly on Firefox with Cypress.
 -  Current version of UI Test spec files under this project will not run on headless mode on Crome and Firefox as the IMDb.com block the access with 403 forbidden error or Network error for Cypress.
    
