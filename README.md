@@ -84,8 +84,8 @@ Cypress/
 
 ## Information about UI Tests : 
 
--  Scenario 01 : Till the time this test is created, there is no movie with tag "Completed" hence no movie will be selected but test will PASS. Once there is a movie with tag "Completed" is available then that movie will be selected.
--  Scenario 05 : Datepicker is not directly accesible due to nature of implementation or elements of datepicker hence the date is enetred using cypress type command in test script to complete the scenario. Datepicker can be open by clicking [Spacebar] and can be navigated using [TAB]. Tried to simulating same action using Cypress but no success yet. Meanwhile I have tried and I am trying my best to find solution to access datepicker by Cypress but no success yet.
--  Current version of UI Test spec files except "Nicolas_Cage.cy.js" under this project may not run on Firefox browser as the IMDb.com behaves inconsistantly on Firefox with Cypress.
--  Current version of UI Test spec files under this project will not run on headless mode on Crome and Firefox as the IMDb.com block the access with 403 forbidden error or Network error for Cypress.
+- Scenario 01 : Till the time this test is created, there is no movie with tag "Completed" hence no movie will be selected but test will PASS. Once there is a movie with tag "Completed" available then that movie will be selected.
+- Scenario 05 : Datepicker is not directly accessible due to the nature of implementation or elements of datepicker hence the date is entered using cypress type command in test script to complete the scenario. Datepicker can be open by clicking [Spacebar] and can be navigated using [TAB]. Tried to simulate the same action using Cypress but no success yet.
+- Current version of UI Test spec files except "Nicolas_Cage.cy.js" under this project may not run on Firefox browser as the IMDb.com behaves inconsistently on Firefox with Cypress.
+- Current version of UI Test spec files under this project will not run on headless mode on Chrome and Firefox as the IMDb.com block the access with 403 forbidden error or Network error for Cypress.
    
