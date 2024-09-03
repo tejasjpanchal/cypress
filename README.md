@@ -2,7 +2,7 @@
 
 # Cypress 
 
-This repository contains automated test scripts developed using Cypress for IMDb.com and pokeAPI , serving as a QA automation assignment.
+This repository contains automated test scripts developed using Cypress for IMDb.com and pokeAPI.
 
 ## Table of Contents
 
