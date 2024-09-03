@@ -41,17 +41,22 @@ describe('Test Secnario - 04 : Test to find Celebrities born on same day as toda
         menuPageObj.nevigateToSpecificSection('Born Today');          
 
         // delete default search                
-        advanceSearchPageObj.deleteDefaultSearch();
+        advanceSearchPageObj.deleteDefaultSearch();       
         
         // Unfold on search filter - Birth date
-        advanceSearchPageObj.unfoldSearchFilterByGivenName('Birth date');        
+        advanceSearchPageObj.unfoldSearchFilterByGivenName('Birth date');     
+
+        // Select start date same as today but 40 years ago using Datepicker
+        advanceSearchPageObj.selectStartDateSameAsToday40YearsAgoUsingDatepicker();
 
         // Get the same day as today but exactly 40 years ago
-
         const searchDate =  getDate40YearsAgo();
-
-        // Enter calculated date under Birth date filter using the date picker for the “from” option and the string field for the “to” option                  
-        advanceSearchPageObj.searchByBirthDate(searchDate);
+        
+        // Enter calculated date under Birth date filter in the string field for the “to” option                  
+        advanceSearchPageObj.enterDateInToDateStringField(searchDate);     
+        
+        //Click On See Result Button
+        advanceSearchPageObj.clickOnSeeResultButton();
         
         // Click on 1st Result        
         advanceSearchPageObj.selectNthName(1);        

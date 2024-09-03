@@ -37,6 +37,11 @@ To set up the project locally, follow these steps:
     ```sh
     npm install cypress --save-dev
     ```
+5. **Make sure the package cypress-real-events is installed, if not install it by running below command**:
+    ```sh
+    npm install cypress-real-events
+    ```
+
 
 ## Running Testsa
 
